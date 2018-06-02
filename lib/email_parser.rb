@@ -13,6 +13,7 @@ def self.parse(csv_emails)
   emails = []
   emails = csv_emails.split(',')
   emails
+  binding.pry
 end
 
 
