@@ -14,8 +14,8 @@ end
 def parse(csv_emails)
   email_list = []
   email_list = csv_emails.split(',')
-  normalized_emails = self.new
-  normalized_emails.emails = email_list
+  #normalized_emails = self.new
+#  normalized_emails.emails = email_list
   email_list
 end
 
