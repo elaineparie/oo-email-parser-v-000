@@ -15,6 +15,7 @@ def self.parse(csv_emails)
   email_list = []
   email_list = csv_emails.split(',')
   normalized_emails = self.new
+  binding.pry
   normalized_emails.emails = email list
   normalized_emails
 end
