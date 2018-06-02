@@ -15,7 +15,7 @@ end
 def parse #(csv_emails)
   email_list = []
   email_list = @csv_emails.split(',')
-  email_list.gsub(' ', ',')
+  email_list
 end
 
 end
