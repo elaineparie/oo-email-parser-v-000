@@ -13,8 +13,10 @@ end
 
 def self.parse(csv_emails)
   email_list = []
-  email list = csv_emails.split(',')
-email_list
+  email list << csv_emails.split(',')
+  normalized_emails = emails.new
+  normalized_emails.emails = email list
+  normalized_emails
 end
 
 
