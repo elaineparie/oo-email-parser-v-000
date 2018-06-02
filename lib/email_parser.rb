@@ -11,7 +11,8 @@ def initialize(csv_emails)
 end
 
 
-def self.parse(csv_emails)
+def self.parse
+
 end
 
 
