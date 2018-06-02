@@ -11,10 +11,9 @@ def initialize(csv_emails)
 end
 
 
-def self.parse
+def self.parse(csv_emails)
   email_list = []
-  email list = self
-  binding.pry
+  email list = csv_emails.split(',')
 
 end
 
