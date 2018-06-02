@@ -7,16 +7,15 @@ require 'pry'
 class EmailParser
   attr_accessor :emails
 
-
-
-def self.parse(csv_emails)
-  emails = []
-  emails = csv_emails.split(',')
-  emails
-  binding.pry
+def initialize(emails)
 end
 
 
+def self.parse(csv_emails)
+  emails_list = []
+  emails_list << csv_emails
+  emails_list.email
+end
 
 
 end
