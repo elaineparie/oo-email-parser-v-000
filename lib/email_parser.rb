@@ -13,7 +13,7 @@ end
 
 def self.parse(csv_emails)
   email_list = []
-  email list << csv_emails.split(',')
+  email list = csv_emails.split(',')
   normalized_emails = self.new
   normalized_emails.emails = email list
   normalized_emails
