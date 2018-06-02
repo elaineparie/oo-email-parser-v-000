@@ -12,9 +12,6 @@ end
 
 
 def self.parse(csv_emails)
-  emails_list = []
-  emails_list << csv_emails
-  emails_list.email
 end
 
 
