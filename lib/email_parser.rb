@@ -13,7 +13,8 @@ end
 
 def self.parse
   email_list = []
-  email list = self 
+  email list = self
+  binding.pry
 
 end
 
