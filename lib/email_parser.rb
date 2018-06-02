@@ -8,13 +8,13 @@ class EmailParser
   attr_accessor :emails
 
 def initialize(csv_emails)
-  @@csv_email = csv_emails
+  @csv_email = csv_emails
 end
 
 
 def parse #(csv_emails)
-  email_list = []
-  email_list = @@csv_emails.split(',')
+  #email_list = []
+  email_list = @csv_emails.split(',')
   email_list
 end
 
