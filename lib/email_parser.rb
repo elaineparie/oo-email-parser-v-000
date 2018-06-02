@@ -8,16 +8,16 @@ class EmailParser
   attr_accessor :emails
 
 def initialize(csv_emails)
+end
 
 
-
-def self.parse  #(csv_emails)
+def self.parse(csv_emails)
   email_list = []
   email_list = csv_emails.split(',')
   normalized_emails = self.new
   normalized_emails.emails = email list
   normalized_emails
-end
+
 end
 
 end
